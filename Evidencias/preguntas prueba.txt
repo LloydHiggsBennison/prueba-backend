@@ -1,0 +1,11 @@
+Servidor Web vs Servidor de Aplicaciones
+El servidor web entrega el contenido estático ya sea HTML, CSS o imágenes y redirige las peticiones, y el servidor de aplicaciones lleva a cabo la lógica del negocio, conecta con la base de datos y genera respuestas al usuario.
+
+Protocolo DNS
+Cuando un usuario introduce reservasrestaurante.com, el servicio de DNS convierte dicho nombre en su dirección IP, de forma que el navegador pueda encontrar el sitio web en cuestión. como ejemplo tenemos 8.8.8.8 que seria Google.com
+
+Modelo vs Vista en Django
+El Modelo es quien define la forma en que se almacenan los datos y la Vista se encarga de gestionar las peticiones que le llegan, aplicar la lógica de negocio, el modelo, enviar la información al template para que sea presentado al usuario.
+
+HTTPS vs HTTP
+HTTPS cifra los datos y asegura, por lo tanto, que existe confidencialidad, integridad y autenticidad, siendo fundamental al tratar datos críticos según lo indica la ISO 27001, HTTP no cifra nada y deja la información en texto plano.
